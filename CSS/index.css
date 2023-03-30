@@ -18,8 +18,12 @@ main{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     background-color: blueviolet;
+}
+
+.text{
+    
+    text-align: center;
 }
 
 h1{
@@ -27,3 +31,17 @@ h1{
     font-size: 2.4rem;
     margin-bottom: 48px;
 }
+
+.cards{
+    border-top: 30px;
+}
+
+.profile-card{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 30%;
+    border: 20px cornflowerblue;
+}
+
