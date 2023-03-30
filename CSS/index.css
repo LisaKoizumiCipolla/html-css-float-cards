@@ -20,8 +20,7 @@ main{
     margin-right: auto;
 }
 
-.text{
-    
+.text{   
     text-align: center;
 }
 
@@ -38,8 +37,7 @@ p{
 
 .cards{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .profile-card{
@@ -47,7 +45,7 @@ p{
     background-color: black;
     color: white;
     width: 31%;
-    margin: 20px 13px;
+    margin: 2% 1%;
 }
 
 .img{
@@ -56,13 +54,13 @@ p{
     margin-right: 15px;
 }
 
-h2{
+name.{
     display: inline-block;
     font-size: 1rem;
 }
 
-h2, .description, .address{
-    margin: 2px;
+.name, .description, .address{
+    margin: 3.5%;
 }
 
 .description, .address{
