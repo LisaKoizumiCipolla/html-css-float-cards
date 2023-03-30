@@ -14,14 +14,10 @@ body{
     font-family: 'Aclonica', sans-serif;
 }
 
-main{
+section{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.text{   
-    text-align: center;
 }
 
 h1{
@@ -35,9 +31,8 @@ p{
     margin-bottom: 30px;
 }
 
-.cards{
-    width: 100%;
-    margin: 0 auto;
+.text{   
+    text-align: center;
 }
 
 .profile-card{
@@ -45,7 +40,7 @@ p{
     background-color: black;
     color: white;
     width: 31%;
-    margin: 2% 1%;
+    margin: 2% 1.1%;
 }
 
 .img{
@@ -54,17 +49,16 @@ p{
     margin-right: 15px;
 }
 
-name.{
-    display: inline-block;
+.name{
     font-size: 1rem;
-}
-
-.name, .description, .address{
-    margin: 3.5%;
 }
 
 .description, .address{
     font-size: 0.8rem;
+}
+
+.name, .description, .address{
+    margin: 3.5%;
 }
 
 .address{
