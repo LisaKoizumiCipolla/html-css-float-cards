@@ -18,7 +18,6 @@ main{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color: blueviolet;
 }
 
 .text{
@@ -29,19 +28,47 @@ main{
 h1{
     color: #CA2E65;
     font-size: 2.4rem;
+    margin-top: 2.3rem;
     margin-bottom: 48px;
 }
 
+p{
+    margin-bottom: 30px;
+}
+
 .cards{
-    border-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-card{
     float: left;
     background-color: black;
     color: white;
-    height: 80px;
-    width: 30%;
-    border: 20px cornflowerblue;
+    width: 31%;
+    margin: 20px 13px;
 }
 
+.img{
+    float: left;
+    width:27%;
+    margin-right: 15px;
+}
+
+h2{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+h2, .description, .address{
+    margin: 2px;
+}
+
+.description, .address{
+    font-size: 0.8rem;
+}
+
+.address{
+    color: #3F99C0;
+}
